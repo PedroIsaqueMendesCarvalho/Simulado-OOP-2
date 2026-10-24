@@ -1,0 +1,11 @@
+Questão 1 
+b)
+A primeira parte compila já que todo clienteVip é um cliente. Permite o polimorfismo entre os metodos de cliente e clienteVip.
+A segunda não é, já que nem todo ciente é um clienteVip. Cliente, por exemplo, não possui o atributo de desconto nem os metodos propios do clienteVip, o contrario do primeiro.
+Questão 2
+b)
+New produto não compila poque Produto é uma classe abstrata, ela permite que classes herdem o seu codigo sem que ela mesma tenha que ser completamente formada e usavel for si mesma (ela pode ter uma extremamente vaga ou geral).
+A classe abstrata, todas as subclasses tem que implementar calcularPrecoFinal. Essa metodo sempre usara o metodo calcularPrecoFinal da sua classe.
+Questão 3
+Entregavel representa uma capacidade (ou um metodo) que pode ser reusado por classes completamente diferentes. Permite o reuso de codigo fora de heranca direta.
+Uma classe pode implementar multiplas interfaces, mas so pode herdar de uma classe mae. Classes abstratas também não possuem construtores.
